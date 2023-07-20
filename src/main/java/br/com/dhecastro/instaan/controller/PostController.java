@@ -18,7 +18,7 @@ import br.com.dhecastro.instaan.models.ChatResponse;
 import br.com.dhecastro.instaan.vo.PostRequest;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://instaan-s3.s3-website-sa-east-1.amazonaws.com/")
 public class PostController {
 	
 	@Autowired
