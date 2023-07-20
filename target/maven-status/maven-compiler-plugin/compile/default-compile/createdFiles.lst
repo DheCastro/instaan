@@ -1,0 +1,17 @@
+br\com\dhecastro\instaan\controller\PostController.class
+br\com\dhecastro\instaan\models\ChatResponse$Choice.class
+br\com\dhecastro\instaan\models\Message.class
+br\com\dhecastro\instaan\exceptions\InvalidRequestException.class
+br\com\dhecastro\instaan\vo\GeneralResponse.class
+br\com\dhecastro\instaan\enums\PostTone.class
+br\com\dhecastro\instaan\exceptions\CustomExceptionHandler.class
+br\com\dhecastro\instaan\models\ChatRequest.class
+br\com\dhecastro\instaan\controller\GeneralController.class
+br\com\dhecastro\instaan\enums\PostType.class
+br\com\dhecastro\instaan\models\ChatResponse.class
+br\com\dhecastro\instaan\config\OpenAICompletionsConfig.class
+br\com\dhecastro\instaan\InstaanApplication.class
+br\com\dhecastro\instaan\exceptions\ExceptionResponse.class
+br\com\dhecastro\instaan\vo\PostRequest.class
+br\com\dhecastro\instaan\config\AppConfig.class
+br\com\dhecastro\instaan\vo\GeneralRequest.class

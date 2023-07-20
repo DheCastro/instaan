@@ -1,0 +1,16 @@
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\config\AppConfig.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\exceptions\InvalidRequestException.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\vo\GeneralResponse.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\controller\PostController.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\config\OpenAICompletionsConfig.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\enums\PostType.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\vo\GeneralRequest.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\vo\PostRequest.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\models\Message.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\controller\GeneralController.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\InstaanApplication.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\models\ChatRequest.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\enums\PostTone.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\exceptions\ExceptionResponse.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\exceptions\CustomExceptionHandler.java
+D:\workspace-sts-4.4.12\instaan\src\main\java\br\com\dhecastro\instaan\models\ChatResponse.java

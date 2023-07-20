@@ -6,7 +6,7 @@ public enum PostType {
 	CARROUSEL(2, "Carrousel"),
 	LONGVIDEO(3, "Vídeo Longo"),
 	REELS(4, "Reels"),
-	STORIE(4, "Storie");
+	STORY(5, "Story");
 
 	private Integer code;
 	private String description;
@@ -34,7 +34,9 @@ public enum PostType {
 		case 3:
 			return PostType.LONGVIDEO;
 		case 4:
-			return PostType.REELS;	
+			return PostType.REELS;
+		case 5:
+			return PostType.STORY;	
 		default:
 			return PostType.UNIQUEIMAGE;
 		}
