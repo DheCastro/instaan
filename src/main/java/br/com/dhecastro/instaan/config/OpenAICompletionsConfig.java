@@ -18,7 +18,7 @@ public class OpenAICompletionsConfig {
 	private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
 
 	Gson gson = new GsonBuilder().setPrettyPrinting().create();
-	private final String apiKey = "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";
+	private final String apiKey = "sk-proj-tCSab6lwetG7e3OYzLwCT3BlbkFJDzAe2hvlUKwbmo6Jki5C";
 	private final RestTemplate restTemplate = new RestTemplate();
 
 	public ChatResponse gerenateAnswer(ChatRequest chatrequest) {

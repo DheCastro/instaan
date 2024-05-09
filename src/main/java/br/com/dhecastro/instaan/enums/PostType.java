@@ -3,7 +3,7 @@ package br.com.dhecastro.instaan.enums;
 public enum PostType {
 
 	UNIQUEIMAGE(1, "Post de Imagem Única"), 
-	CARROUSEL(2, "Carrousel"),
+	CARROUSEL(2, "Carrossel"),
 	LONGVIDEO(3, "Vídeo Longo"),
 	REELS(4, "Reels"),
 	STORY(5, "Story");

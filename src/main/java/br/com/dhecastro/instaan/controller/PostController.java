@@ -18,7 +18,8 @@ import br.com.dhecastro.instaan.models.ChatResponse;
 import br.com.dhecastro.instaan.vo.PostRequest;
 
 @RestController
-@CrossOrigin(origins = "http://instaan-s3.s3-website-sa-east-1.amazonaws.com/")
+//@CrossOrigin(origins = "http://instaan-s3.s3-website-sa-east-1.amazonaws.com/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PostController {
 	
 	@Autowired
@@ -34,6 +35,10 @@ public class PostController {
 	public String chat(@RequestBody @Valid PostRequest request) {
 		
 		validateFieldsByPostType(request);
+		
+		System.out.println("PROMPT:");
+		System.out.println(request.buildBody());
+		
 		ChatRequest chatRequest = new ChatRequest(model, request.buildBody());
 		
 		// set one response by default

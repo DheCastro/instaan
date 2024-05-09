@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.theokanning.openai.completion.CompletionRequest;
+
 import br.com.dhecastro.instaan.config.OpenAICompletionsConfig;
 import br.com.dhecastro.instaan.models.ChatRequest;
 import br.com.dhecastro.instaan.models.ChatResponse;
@@ -20,8 +22,6 @@ public class GeneralController {
 	
 	@Autowired
 	private final OpenAICompletionsConfig openAi;
-	private static final String JSON_FORMAT = "{ response:, content: } ";
-	private static final String JSON_ATTS = " response, content ";
 	
 	public GeneralController(OpenAICompletionsConfig openAi) {
 		this.openAi = openAi;
@@ -34,11 +34,6 @@ public class GeneralController {
 		
 		ChatRequest chatRequest = new ChatRequest(model, request.getTerm());
 		
-		//+ " - a resposta gerada deve vir sempre em um objeto json válido "
-			//	   + " no formato " + JSON_FORMAT + " e com os atributos " + JSON_ATTS + ". E qualquer complemento da resposta deve vir no atributo content. Reforçando"
-				//   		+ " que o JSON da resposta deve ser válido");
-		
-		// set one response by default
 		chatRequest.setN(1);
 		ChatResponse response = openAi.gerenateAnswer(chatRequest);
 
